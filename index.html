@@ -83,8 +83,8 @@
           </span>
         </button>
 
-        <!-- Resume Download CTA -->
-        <a href="assets/Jay_Parmar_Resume.pdf" download="Jay_Parmar_Resume.pdf" class="btn btn-secondary btn-sm" title="Download Verified Resume (PDF)">
+        <!-- Resume Download CTA (Desktop Only) -->
+        <a href="assets/Jay_Parmar_Resume.pdf" download="Jay_Parmar_Resume.pdf" class="btn btn-secondary btn-sm nav-resume-btn" title="Download Verified Resume (PDF)">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
             <polyline points="7 10 12 15 17 10"></polyline>
@@ -106,46 +106,147 @@
 
     <!-- Mobile Drawer Navigation -->
     <div id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Mobile Navigation Drawer">
-      <a href="#about" class="mobile-nav-link">
-        <span>About</span>
-        <span>→</span>
-      </a>
-      <a href="#projects" class="mobile-nav-link">
-        <span>Projects (3 Live Platforms)</span>
-        <span>→</span>
-      </a>
-      <a href="#interactive-demo" class="mobile-nav-link">
-        <span>Interactive Demos</span>
-        <span>→</span>
-      </a>
-      <a href="#skills" class="mobile-nav-link">
-        <span>Technical Skills</span>
-        <span>→</span>
-      </a>
-      <a href="#experience" class="mobile-nav-link">
-        <span>Experience &amp; Internships</span>
-        <span>→</span>
-      </a>
-      <a href="#certificates" class="mobile-nav-link">
-        <span>Verified Credentials</span>
-        <span>→</span>
-      </a>
-      <a href="#contact" class="mobile-nav-link">
-        <span>Contact &amp; Connect</span>
-        <span>→</span>
-      </a>
-      <div class="mobile-drawer-actions">
-        <a href="assets/Jay_Parmar_Resume.pdf" download="Jay_Parmar_Resume.pdf" class="btn btn-primary" style="width: 100%;">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <div class="mobile-nav-cards-list">
+        <!-- About Link -->
+        <a href="#about" class="mobile-nav-card">
+          <div class="mobile-nav-card-left">
+            <div class="mobile-nav-icon icon-blue">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 16v-4"></path>
+                <path d="M12 8h.01"></path>
+              </svg>
+            </div>
+            <div class="mobile-nav-text">
+              <div class="mobile-nav-title">About Overview</div>
+              <div class="mobile-nav-desc">AI/ML Engineering Mindset</div>
+            </div>
+          </div>
+          <svg class="mobile-nav-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+
+        <!-- Projects Link -->
+        <a href="#projects" class="mobile-nav-card">
+          <div class="mobile-nav-card-left">
+            <div class="mobile-nav-icon icon-emerald">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <div class="mobile-nav-text">
+              <div class="mobile-nav-title">Featured Projects</div>
+              <div class="mobile-nav-desc">3 Live Platforms Deployed</div>
+            </div>
+          </div>
+          <svg class="mobile-nav-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+
+        <!-- Demos Link -->
+        <a href="#interactive-demo" class="mobile-nav-card">
+          <div class="mobile-nav-card-left">
+            <div class="mobile-nav-icon icon-purple">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="4 17 10 11 4 5"></polyline>
+                <line x1="12" y1="19" x2="20" y2="19"></line>
+              </svg>
+            </div>
+            <div class="mobile-nav-text">
+              <div class="mobile-nav-title">Interactive AI Demos</div>
+              <div class="mobile-nav-desc">Test Vitals, OCR &amp; SOS in Browser</div>
+            </div>
+          </div>
+          <svg class="mobile-nav-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+
+        <!-- Skills Link -->
+        <a href="#skills" class="mobile-nav-card">
+          <div class="mobile-nav-card-left">
+            <div class="mobile-nav-icon icon-blue">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <div class="mobile-nav-text">
+              <div class="mobile-nav-title">Technical Skills</div>
+              <div class="mobile-nav-desc">Python, OpenCV, Document AI, SQL</div>
+            </div>
+          </div>
+          <svg class="mobile-nav-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+
+        <!-- Experience Link -->
+        <a href="#experience" class="mobile-nav-card">
+          <div class="mobile-nav-card-left">
+            <div class="mobile-nav-icon icon-emerald">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <div class="mobile-nav-text">
+              <div class="mobile-nav-title">Experience &amp; Internships</div>
+              <div class="mobile-nav-desc">3 Roles @ IT Hub Solutions</div>
+            </div>
+          </div>
+          <svg class="mobile-nav-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+
+        <!-- Credentials Link -->
+        <a href="#certificates" class="mobile-nav-card">
+          <div class="mobile-nav-card-left">
+            <div class="mobile-nav-icon icon-purple">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <div class="mobile-nav-text">
+              <div class="mobile-nav-title">Verified Credentials</div>
+              <div class="mobile-nav-desc">4 Official Certificates</div>
+            </div>
+          </div>
+          <svg class="mobile-nav-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+
+        <!-- Contact Link -->
+        <a href="#contact" class="mobile-nav-card">
+          <div class="mobile-nav-card-left">
+            <div class="mobile-nav-icon icon-blue">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="mobile-nav-text">
+              <div class="mobile-nav-title">Contact &amp; Connect</div>
+              <div class="mobile-nav-desc">Direct WhatsApp &amp; Email</div>
+            </div>
+          </div>
+          <svg class="mobile-nav-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </a>
+      </div>
+
+      <!-- Drawer Bottom Actions -->
+      <div class="mobile-drawer-footer">
+        <a href="assets/Jay_Parmar_Resume.pdf" download="Jay_Parmar_Resume.pdf" class="btn btn-primary btn-lg" style="width: 100%;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
             <polyline points="7 10 12 15 17 10"></polyline>
             <line x1="12" y1="15" x2="12" y2="3"></line>
           </svg>
           <span>Download Resume (PDF)</span>
         </a>
-        <a href="https://wa.me/919714611331" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; color: #25D366;">
+        <a href="https://wa.me/919714611331" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg" style="width: 100%; color: #25D366; border-color: rgba(37,211,102,0.3);">
           <span>Chat on WhatsApp</span>
         </a>
+        <div class="mobile-drawer-status">
+          <span class="status-dot"></span>
+          <span>Bhavnagar, Gujarat • Available for Opportunities</span>
+        </div>
       </div>
     </div>
   </header>

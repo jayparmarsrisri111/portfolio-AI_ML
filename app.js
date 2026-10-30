@@ -68,7 +68,7 @@ function updateThemeIcon(theme) {
 function initMobileNav() {
   const mobileBtn = document.getElementById('mobile-menu-btn');
   const drawer = document.getElementById('mobile-nav-drawer');
-  const navLinks = document.querySelectorAll('.mobile-nav-link');
+  const navLinks = document.querySelectorAll('.mobile-nav-card, .mobile-nav-link');
   if (!mobileBtn || !drawer) return;
 
   const hamburgerSvg = `
@@ -89,6 +89,7 @@ function initMobileNav() {
     mobileBtn.setAttribute('aria-expanded', 'false');
     mobileBtn.innerHTML = hamburgerSvg;
     document.body.style.overflow = '';
+    document.documentElement.style.overflow = '';
   }
 
   function openDrawer() {
@@ -96,6 +97,7 @@ function initMobileNav() {
     mobileBtn.setAttribute('aria-expanded', 'true');
     mobileBtn.innerHTML = closeSvg;
     document.body.style.overflow = 'hidden';
+    document.documentElement.style.overflow = 'hidden';
   }
 
   mobileBtn.addEventListener('click', (e) => {
