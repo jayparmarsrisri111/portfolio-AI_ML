@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jay Parmar | AI/ML Developer &amp; Software Engineer</title>
+  <meta name="description" content="Portfolio of Jay Parmar — AI/ML Developer and BCA student at Gyanmanjari Innovative University. Practical expertise in Python, Computer Vision, Document AI, and production deployments.">
+  <meta name="author" content="Jay Parmar">
+  <meta name="keywords" content="Jay Parmar, AI Developer, ML Engineer, Computer Vision, OpenCV, Python Developer, Gujarat, Bhavnagar, Sri Sri HealthCare, Sri Sri AI CA, Sri Sri SOS AI">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Jay Parmar | AI/ML Developer &amp; Software Engineer">
+  <meta property="og:description" content="Practical Machine Learning, Computer Vision pipelines, and intelligent web applications with live production links.">
+  
+  <!-- Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Skip Navigation for Accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========================================================================
+       Navigation Bar
+       ======================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <!-- Brand Logo / Identity -->
+      <a href="#hero" class="brand-logo" aria-label="Jay Parmar Home">
+        <div class="brand-badge-box">JP</div>
+        <div class="brand-text">
+          <span class="brand-name">Jay Parmar</span>
+          <span class="brand-role">AI / ML Developer</span>
+        </div>
+        <div class="status-pill" title="Actively seeking AI/ML Developer &amp; Software Engineering roles">
+          <span class="status-dot"></span>
+          <span>Available</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#interactive-demo" class="nav-link">Interactive Demos</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#certificates" class="nav-link">Credentials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Items & Controls -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <span id="theme-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+        </button>
+
+        <!-- Resume Download CTA -->
+        <a href="assets/Jay_Parmar_Resume.pdf" download="Jay_Parmar_Resume.pdf" class="btn btn-secondary btn-sm" title="Download Verified Resume (PDF)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle navigation drawer" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Mobile Navigation Drawer">
+      <a href="#about" class="mobile-nav-link">
+        <span>About</span>
+        <span>→</span>
+      </a>
+      <a href="#projects" class="mobile-nav-link">
+        <span>Projects (3 Live Platforms)</span>
+        <span>→</span>
+      </a>
+      <a href="#interactive-demo" class="mobile-nav-link">
+        <span>Interactive Demos</span>
+        <span>→</span>
+      </a>
+      <a href="#skills" class="mobile-nav-link">
+        <span>Technical Skills</span>
+        <span>→</span>
+      </a>
+      <a href="#experience" class="mobile-nav-link">
+        <span>Experience &amp; Internships</span>
+        <span>→</span>
+      </a>
+      <a href="#certificates" class="mobile-nav-link">
+        <span>Verified Credentials</span>
+        <span>→</span>
+      </a>
+      <a href="#contact" class="mobile-nav-link">
+        <span>Contact &amp; Connect</span>
+        <span>→</span>
+      </a>
+      <div class="mobile-drawer-actions">
+        <a href="assets/Jay_Parmar_Resume.pdf" download="Jay_Parmar_Resume.pdf" class="btn btn-primary" style="width: 100%;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download Resume (PDF)</span>
+        </a>
+        <a href="https://wa.me/919714611331" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: 100%; color: #25D366;">
+          <span>Chat on WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- ========================================================================
+         Hero Section
+         ======================================================================== -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-greeting">
+            <span>👋 Namaste, I'm Jay Parmar</span>
+          </div>
+
+          <h1 class="hero-title">
+            Architecting <span class="gradient-text">Practical AI Systems</span> &amp; Production Web Engines.
+          </h1>
+
+          <p class="hero-bio">
+            AI / Machine Learning Developer and BCA student at <strong>Gyanmanjari Innovative University</strong>.
+            I bridge raw algorithmic intelligence with responsive production software — from <strong>contactless computer vision vitals</strong> and <strong>document AI OCR extraction</strong> to <strong>real-time acoustic distress recognition</strong>.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              <span>Explore Live Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="https://github.com/jayparmarsrisri111" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>GitHub Code</span>
+            </a>
+            <a href="https://wa.me/919714611331" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg" style="color: #25D366; border-color: rgba(37,211,102,0.3);">
+              <span>WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Key Metrics -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-number">3+</span>
+              <span class="metric-label">Live AI Platforms</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-number">3</span>
+              <span class="metric-label">Completed Internships</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-number">2025</span>
+              <span class="metric-label">TechNova Hackathon</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-number">BCA</span>
+              <span class="metric-label">GMIU Bhavnagar</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terminal Widget (Interactive Developer Sandbox) -->
+        <div class="hero-terminal">
+          <div class="terminal-window">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="terminal-dot dot-red"></span>
+                <span class="terminal-dot dot-yellow"></span>
+                <span class="terminal-dot dot-green"></span>
+              </div>
+              <div class="terminal-title">jay@parmar-dev-box: ~/portfolio</div>
+              <span style="font-family: var(--font-mono); font-size: 0.7rem; color: #58a6ff;">zsh</span>
+            </div>
+
+            <div id="terminal-body" class="terminal-body">
+              <div class="terminal-line"><span class="terminal-prompt">jay@terminal:~$</span> <span class="terminal-cmd">python3 main.py --init</span></div>
+              <div class="terminal-line terminal-out">
+                [OK] Model weights &amp; pipeline modules initialized.<br>
+                [OK] Connected to live web endpoints (Netlify &amp; Render).<br>
+                Type commands or click quick actions below to inspect profile:
+              </div>
+              <div class="terminal-line"><span class="terminal-prompt">&gt;</span> <span class="terminal-cmd">jay.get_overview()</span></div>
+              <div class="terminal-line terminal-out">
+                {<br>
+                &nbsp;&nbsp;"developer": "Jay Parmar",<br>
+                &nbsp;&nbsp;"role": "AI / ML Developer &amp; Backend Engineer",<br>
+                &nbsp;&nbsp;"core_skills": ["Python", "Computer Vision", "Scikit-Learn", "Flask", "Document AI"],<br>
+                &nbsp;&nbsp;"current_status": "Ready for Engineering Challenges"<br>
+                }
+              </div>
+            </div>
+
+            <!-- Clickable Interactive Chips -->
+            <div class="terminal-interactive-bar">
+              <button class="term-action-btn" data-cmd="jay.bio()">jay.bio()</button>
+              <button class="term-action-btn" data-cmd="jay.stack()">jay.stack()</button>
+              <button class="term-action-btn" data-cmd="jay.projects()">jay.projects()</button>
+              <button class="term-action-btn" data-cmd="jay.contact()">jay.contact()</button>
+              <button class="term-action-btn" data-cmd="clear" style="margin-left: auto;">clear</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Core Engineering Pillars (Why Practical AI Matters)
+         ======================================================================== -->
+    <section id="about" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Engineering Mindset</span>
+          <h2 class="section-title">Beyond Theory — Real Deployments.</h2>
+          <p class="section-subtitle">
+            Many AI projects remain locked in static Jupyter notebooks. My focus is engineering end-to-end applications where ML models operate within clean backend pipelines, intuitive user interfaces, and production hosting environments.
+          </p>
+        </div>
+
+        <div class="philosophy-grid">
+          <div class="philosophy-card">
+            <div class="card-icon icon-blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                <path d="M2 12h20"></path>
+              </svg>
+            </div>
+            <h3>Computer Vision &amp; Signal Processing</h3>
+            <p>
+              Applying OpenCV, facial ROI segmentation, and spectral frequency filtering to analyze real-world feeds without bulky dedicated sensor hardware.
+            </p>
+          </div>
+
+          <div class="philosophy-card">
+            <div class="card-icon icon-emerald">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3>Document AI &amp; Financial OCR</h3>
+            <p>
+              Automating tedious manual workflows by converting invoices, receipts, and tax notices into validated relational records and simulation engines.
+            </p>
+          </div>
+
+          <div class="philosophy-card">
+            <div class="card-icon icon-purple">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3>Full-Stack &amp; Telemetry Integration</h3>
+            <p>
+              Pairing Python ML backends with responsive HTML5/JS interfaces, REST endpoints, and WebSockets so intelligent decisions reach end-users in milliseconds.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Featured Projects Showcase (The Core Highlights)
+         ======================================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Production Work</span>
+          <h2 class="section-title">Featured Production Applications</h2>
+          <p class="section-subtitle">
+            Real deployed software platforms solving healthcare accessibility, accounting automation, and emergency safety.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Sri Sri HealthCare -->
+          <article class="project-card">
+            <div class="project-card-content">
+              <div>
+                <div class="project-header-top">
+                  <span class="project-category">Healthcare AI • Computer Vision</span>
+                  <span class="project-status">● Live in Production</span>
+                </div>
+                <h3 class="project-title">Sri Sri HealthCare — AI Medical Platform</h3>
+                <p class="project-desc">
+                  A multilingual (Gujarati / Hindi / English) AI-driven healthcare intelligence platform engineered for preventive medicine, symptom triage, and contactless vital signs estimation.
+                </p>
+
+                <ul class="project-highlights-list">
+                  <li class="project-highlight-item">
+                    <span class="project-highlight-bullet">▸</span>
+                    <span><strong>Conversational Symptom Triage:</strong> Context-aware diagnostic intake providing preliminary health stratification and risk advisory.</span>
+                  </li>
+                  <li class="project-highlight-item">
+                    <span class="project-highlight-bullet">▸</span>
+                    <span><strong>Computer Vision Vitals:</strong> Real-time contactless vital estimation calculating heart rate &amp; respiratory indicators via facial video stream.</span>
+                  </li>
+                  <li class="project-highlight-item">
+                    <span class="project-highlight-bullet">▸</span>
+                    <span><strong>Multilingual Voice Assistant:</strong> Voice interactions supporting regional languages with Jan Aushadhi generic medicine finders and local hospital locators.</span>
+                  </li>
+                </ul>
+
+                <div class="tech-tags-group">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Computer Vision</span>
+                  <span class="tech-tag">OpenCV</span>
+                  <span class="tech-tag">Multilingual NLP</span>
+                  <span class="tech-tag">Speech Recognition</span>
+                  <span class="tech-tag">REST APIs</span>
+                  <span class="tech-tag">Netlify</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://srisrihealthcare111.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  <span>Launch Live App</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/jayparmarsrisri111/sri-sri-healthcare" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>Source Code</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Architecture Mockup Visual -->
+            <div class="project-card-visual">
+              <div class="project-preview-mockup">
+                <div class="mockup-topbar">
+                  <span class="mockup-domain">https://srisrihealthcare111.netlify.app</span>
+                  <span class="badge badge-emerald">SSL Active</span>
+                </div>
+                <div class="mockup-ui-body">
+                  <div class="ui-feature-box">
+                    <div class="ui-feature-title">
+                      <span style="color:#10b981;">♥</span> Contactless PPG Vitals Engine
+                    </div>
+                    <div class="ui-feature-sub">Forehead ROI Color Chrominance Tracking</div>
+                    <div class="waveform-viz">
+                      <div class="waveform-bar" style="animation-delay: 0.1s;"></div>
+                      <div class="waveform-bar" style="animation-delay: 0.3s;"></div>
+                      <div class="waveform-bar" style="animation-delay: 0.15s;"></div>
+                      <div class="waveform-bar" style="animation-delay: 0.4s;"></div>
+                      <div class="waveform-bar" style="animation-delay: 0.2s;"></div>
+                      <div class="waveform-bar" style="animation-delay: 0.5s;"></div>
+                      <div class="waveform-bar" style="animation-delay: 0.25s;"></div>
+                      <div class="waveform-bar" style="animation-delay: 0.35s;"></div>
+                    </div>
+                  </div>
+
+                  <div class="ui-feature-box">
+                    <div class="ui-feature-title">
+                      <span>🌐</span> Multilingual Voice Translation
+                    </div>
+                    <div class="ui-feature-sub">English • ગુજરાતી (Gujarati) • हिन्दी (Hindi)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Sri Sri AI CA -->
+          <article class="project-card">
+            <div class="project-card-content">
+              <div>
+                <div class="project-header-top">
+                  <span class="project-category">Document AI • Financial Automation</span>
+                  <span class="project-status">● Live in Production</span>
+                </div>
+                <h3 class="project-title">Sri Sri AI CA — AI Accounting &amp; Tax Platform</h3>
+                <p class="project-desc">
+                  An intelligent financial automation and tax analytics platform built for Chartered Accountants, corporate auditors, and micro-enterprises to eradicate manual data entry.
+                </p>
+
+                <ul class="project-highlights-list">
+                  <li class="project-highlight-item">
+                    <span class="project-highlight-bullet">▸</span>
+                    <span><strong>Intelligent Document AI Pipeline:</strong> Automated OCR table and header extraction converting unstructured invoice PDFs into structured ledger entries.</span>
+                  </li>
+                  <li class="project-highlight-item">
+                    <span class="project-highlight-bullet">▸</span>
+                    <span><strong>Predictive Tax Simulation:</strong> Rule-based engine comparing New vs. Old tax regimes, FIFO inventory valuation, and compliance reporting.</span>
+                  </li>
+                  <li class="project-highlight-item">
+                    <span class="project-highlight-bullet">▸</span>
+                    <span><strong>NLP Tax Notice Solver:</strong> Natural language analysis of statutory tax demand notices, audit trail verification, and multi-language guidance.</span>
+                  </li>
+                </ul>
+
+                <div class="tech-tags-group">
+                  <span class="tech-tag">Document AI</span>
+                  <span class="tech-tag">OCR Pipeline</span>
+                  <span class="tech-tag">NLP Notice Parser</span>
+                  <span class="tech-tag">Financial Engine</span>
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Netlify</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://srisriaica.netlify.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  <span>Launch Live App</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/jayparmarsrisri111/sri-sri-ca-ai" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>Source Code</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Architecture Mockup Visual -->
+            <div class="project-card-visual">
+              <div class="project-preview-mockup">
+                <div class="mockup-topbar">
+                  <span class="mockup-domain">https://srisriaica.netlify.app</span>
+                  <span class="badge badge-blue">Tax Engine v2</span>
+                </div>
+                <div class="mockup-ui-body">
+                  <div class="ui-feature-box">
+                    <div class="ui-feature-title">
+                      <span>📄</span> OCR Invoice Stream &amp; Validation
+                    </div>
+                    <div class="ui-feature-sub">GSTIN &amp; HSN Automatic Matching Matrix</div>
+                  </div>
+                  <div class="ui-feature-box">
+                    <div class="ui-feature-title">
+                      <span>⚖</span> Tax Regime Optimizer
+                    </div>
+                    <div class="ui-feature-sub">Section 115BAC Comparison Algorithm</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Sri Sri SOS AI -->
+          <article class="project-card">
+            <div class="project-card-content">
+              <div>
+                <div class="project-header-top">
+                  <span class="project-category">Audio ML • Telemetry &amp; Safety</span>
+                  <span class="project-status">● Live in Production</span>
+                </div>
+                <h3 class="project-title">Sri Sri SOS AI — Women Safety &amp; Digital Blackbox</h3>
+                <p class="project-desc">
+                  An AI-powered emergency safety Progressive Web App (PWA) delivering real-time acoustic distress recognition, location telemetry, and synchronized emergency dispatch.
+                </p>
+
+                <ul class="project-highlights-list">
+                  <li class="project-highlight-item">
+                    <span class="project-highlight-bullet">▸</span>
+                    <span><strong>Acoustic Distress Recognition:</strong> Audio model analyzing real-time ambient decibel frequency shifts to detect scream/distress signatures in noisy conditions.</span>
+                  </li>
+                  <li class="project-highlight-item">
+                    <span class="project-highlight-bullet">▸</span>
+                    <span><strong>Street Safety Score Model:</strong> Algorithmic index evaluating GPS telemetry, safe-travel countdown timers, and historical local risk factors.</span>
+                  </li>
+                  <li class="project-highlight-item">
+                    <span class="project-highlight-bullet">▸</span>
+                    <span><strong>Real-time Dispatch Dashboard:</strong> Full-stack socket updates relaying live victim breadcrumbs to a police/emergency control room dashboard.</span>
+                  </li>
+                </ul>
+
+                <div class="tech-tags-group">
+                  <span class="tech-tag">Acoustic ML</span>
+                  <span class="tech-tag">Audio Signal Processing</span>
+                  <span class="tech-tag">WebSockets</span>
+                  <span class="tech-tag">Progressive Web App (PWA)</span>
+                  <span class="tech-tag">Render Cloud</span>
+                  <span class="tech-tag">Python</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://sri-sri-sos-ai.onrender.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                  <span>Launch Live App</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+                <a href="https://github.com/jayparmarsrisri111/sri-sri-ai-sos" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>Source Code</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Architecture Mockup Visual -->
+            <div class="project-card-visual">
+              <div class="project-preview-mockup">
+                <div class="mockup-topbar">
+                  <span class="mockup-domain">https://sri-sri-sos-ai.onrender.com</span>
+                  <span class="badge badge-purple">Render Hosted</span>
+                </div>
+                <div class="mockup-ui-body">
+                  <div class="ui-feature-box">
+                    <div class="ui-feature-title">
+                      <span style="color:#f43f5e;">⚡</span> Acoustic Distress Classifier
+                    </div>
+                    <div class="ui-feature-sub">Real-time Spectral Frequency Thresholding</div>
+                  </div>
+                  <div class="ui-feature-box">
+                    <div class="ui-feature-title">
+                      <span>🛰</span> GPS Telemetry &amp; Socket Sync
+                    </div>
+                    <div class="ui-feature-sub">Synchronized Control Room Dispatch</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Interactive AI Sandbox / Live Demonstrators
+         ======================================================================== -->
+    <section id="interactive-demo" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Interactive Tech Playground</span>
+          <h2 class="section-title">Test The Engineering In Your Browser</h2>
+          <p class="section-subtitle">
+            Experience simulated client-side pipelines modeled directly from my 3 production projects.
+          </p>
+        </div>
+
+        <div class="sandbox-card">
+          <!-- Navigation Tabs -->
+          <div class="sandbox-nav">
+            <button class="sandbox-tab-btn active" data-target="panel-vitals">
+              <span>♥</span> Contactless Vitals (HealthCare AI)
+            </button>
+            <button class="sandbox-tab-btn" data-target="panel-ocr">
+              <span>📄</span> Invoice Schema Extraction (AI CA)
+            </button>
+            <button class="sandbox-tab-btn" data-target="panel-sos">
+              <span>🚨</span> Acoustic Distress Radar (SOS AI)
+            </button>
+          </div>
+
+          <!-- Panel 1: Vitals -->
+          <div id="panel-vitals" class="sandbox-tab-panel active">
+            <div class="demo-grid">
+              <div>
+                <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem; color: var(--text-primary);">
+                  Facial Photoplethysmography (PPG) Simulator
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+                  Simulates the computer vision pipeline of <strong>Sri Sri HealthCare</strong>: tracking micro-color shifts in the facial vascular bed to measure pulse rate and oxygenation without wearables.
+                </p>
+
+                <div style="display: flex; gap: 1.5rem; align-items: center; margin-bottom: 1.5rem;">
+                  <div class="vitals-heartbeat">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div style="font-size: 1.85rem; font-weight: 800; color: var(--text-primary); line-height: 1;">
+                      <span id="vitals-bpm-val">74</span> <span style="font-size: 0.9rem; font-weight: 500; color: var(--text-muted);">BPM</span>
+                    </div>
+                    <div style="font-size: 0.825rem; color: var(--text-muted); margin-top: 0.2rem;">
+                      SpO2: <strong id="vitals-spo2-val" style="color:var(--accent-emerald);">98%</strong> | Respiration: <strong>16 rpm</strong>
+                    </div>
+                  </div>
+                </div>
+
+                <button id="run-vitals-demo" class="btn btn-primary">Run Facial PPG Stream</button>
+              </div>
+
+              <div>
+                <div class="demo-console" id="vitals-console-out">
+                  <span style="color:#60a5fa">[STATUS]</span> Ready to process camera feed.<br>
+                  Click "Run Facial PPG Stream" to simulate OpenCV facial detection, bounding box isolation, and bandpass filtering.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 2: OCR Extraction -->
+          <div id="panel-ocr" class="sandbox-tab-panel">
+            <div class="demo-grid">
+              <div>
+                <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem; color: var(--text-primary);">
+                  Document AI Table &amp; Tax Field Extraction
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+                  Simulates the pipeline from <strong>Sri Sri AI CA</strong>: converting messy scanned invoice documents into clean, structured JSON ledger payloads with GST validation.
+                </p>
+
+                <div style="background: var(--bg-tertiary); padding: 1rem; border-radius: var(--radius-md); margin-bottom: 1.25rem; font-size: 0.85rem; border: 1px solid var(--border-color);">
+                  <strong>Input Payload:</strong> Raw scanned hardware purchase invoice (PDF/JPEG)<br>
+                  <strong>Output:</strong> Verified HSN codes, GST rates, subtotal, and FIFO matching.
+                </div>
+
+                <button id="run-ocr-demo" class="btn btn-primary">Simulate Document AI Extraction</button>
+              </div>
+
+              <div>
+                <div class="demo-console" id="ocr-console-out">
+                  <span style="color:#60a5fa">[STATUS]</span> Document AI engine listening on port :5000.<br>
+                  Click button to trigger OCR parsing and JSON output schema.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel 3: SOS Distress -->
+          <div id="panel-sos" class="sandbox-tab-panel">
+            <div class="demo-grid">
+              <div>
+                <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem; color: var(--text-primary);">
+                  Acoustic Scream &amp; Frequency Distress Model
+                </h3>
+                <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.25rem;">
+                  Simulates <strong>Sri Sri SOS AI</strong>: continuous audio stream monitoring for sharp decibel spikes and human vocal distress signatures in real time.
+                </p>
+
+                <div style="display: flex; gap: 1rem; align-items: center; margin-bottom: 1.5rem;">
+                  <span class="badge badge-purple" style="font-size: 0.85rem; padding: 0.4rem 0.8rem;">
+                    Status: <strong id="sos-risk-val" style="margin-left: 4px; color: #10b981;">NORMAL (Safe)</strong>
+                  </span>
+                  <span style="font-size: 0.8rem; color: var(--text-muted);">Threshold: 85 dB @ 2.5kHz-3.5kHz</span>
+                </div>
+
+                <button id="run-sos-demo" class="btn btn-primary">Simulate Acoustic Scream Detection</button>
+              </div>
+
+              <div>
+                <div class="demo-console" id="sos-console-out">
+                  <span style="color:#60a5fa">[STATUS]</span> Acoustic buffer standby.<br>
+                  Click button to simulate audio anomaly ingestion and police control-room telemetry.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Technical Skills Matrix
+         ======================================================================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Capabilities</span>
+          <h2 class="section-title">Technical Skills &amp; Stack</h2>
+          <p class="section-subtitle">
+            Disciplined software engineering with focus on machine learning algorithms, clean data pipelines, and backend architectures.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="skills-filter">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="ai-ml">AI, ML &amp; Vision</button>
+          <button class="filter-btn" data-filter="backend">Backend &amp; Databases</button>
+          <button class="filter-btn" data-filter="languages">Languages</button>
+          <button class="filter-btn" data-filter="tools">Tools &amp; Cloud</button>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Python -->
+          <div class="skill-card" data-category="languages">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">Python</span>
+                <span class="badge badge-blue">Primary</span>
+              </div>
+              <p class="skill-desc">Object-oriented programming, data structures, backend scripts, modular automation utilities, and ML model integration.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">OOP</span>
+              <span class="tech-tag">Automation</span>
+              <span class="tech-tag">Scripts</span>
+            </div>
+          </div>
+
+          <!-- Machine Learning -->
+          <div class="skill-card" data-category="ai-ml">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">Machine Learning (ML)</span>
+                <span class="badge badge-emerald">Core</span>
+              </div>
+              <p class="skill-desc">Scikit-Learn, predictive modeling, classification, regression, feature engineering, and model evaluation metrics.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">Scikit-Learn</span>
+              <span class="tech-tag">Model Evaluation</span>
+            </div>
+          </div>
+
+          <!-- Computer Vision -->
+          <div class="skill-card" data-category="ai-ml">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">Computer Vision (OpenCV)</span>
+                <span class="badge badge-emerald">Core</span>
+              </div>
+              <p class="skill-desc">OpenCV image processing, facial ROI segmentation, video frame analysis, feature tracking, and contactless vitals calculation.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">OpenCV</span>
+              <span class="tech-tag">ROI Tracking</span>
+              <span class="tech-tag">Video Streams</span>
+            </div>
+          </div>
+
+          <!-- Document AI & NLP -->
+          <div class="skill-card" data-category="ai-ml">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">Natural Language (NLP) &amp; LLMs</span>
+                <span class="badge badge-purple">Advanced</span>
+              </div>
+              <p class="skill-desc">Text tokenization, sentiment analysis, document OCR parsing, rule extraction, and Generative AI prompt workflows.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">Tesseract OCR</span>
+              <span class="tech-tag">GenAI &amp; LLMs</span>
+            </div>
+          </div>
+
+          <!-- Pandas & NumPy -->
+          <div class="skill-card" data-category="ai-ml">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">Pandas &amp; NumPy</span>
+                <span class="badge badge-blue">Data Core</span>
+              </div>
+              <p class="skill-desc">Vectorized numerical calculations, data manipulation, cleaning, outlier handling, and structured data transformations.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">Data Cleaning</span>
+              <span class="tech-tag">Matrix Math</span>
+            </div>
+          </div>
+
+          <!-- SQL & MySQL -->
+          <div class="skill-card" data-category="backend">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">SQL &amp; MySQL</span>
+                <span class="badge badge-blue">Database</span>
+              </div>
+              <p class="skill-desc">Schema normalization, complex relational JOINs, indexing, CRUD query optimization, and persistent database modeling.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Relational Schemas</span>
+              <span class="tech-tag">CRUD</span>
+            </div>
+          </div>
+
+          <!-- REST APIs & Flask -->
+          <div class="skill-card" data-category="backend">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">REST APIs &amp; Flask</span>
+                <span class="badge badge-emerald">Backend</span>
+              </div>
+              <p class="skill-desc">Building lightweight Python microservices, routing, endpoint security, JSON request-response formatting, and client integration.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">RESTful</span>
+              <span class="tech-tag">Endpoints</span>
+            </div>
+          </div>
+
+          <!-- PHP & Apache -->
+          <div class="skill-card" data-category="backend">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">PHP &amp; Web Backends</span>
+                <span class="badge badge-blue">Backend</span>
+              </div>
+              <p class="skill-desc">Server-side application logic, session management, user authentication, transaction handling, and Apache web configuration.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">Sessions</span>
+              <span class="tech-tag">Auth</span>
+            </div>
+          </div>
+
+          <!-- C & C++ -->
+          <div class="skill-card" data-category="languages">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">C &amp; C++</span>
+                <span class="badge badge-blue">Foundation</span>
+              </div>
+              <p class="skill-desc">Memory management, pointers, algorithmic problem solving, computational complexity, and systems fundamentals.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">Memory Management</span>
+              <span class="tech-tag">Data Structures</span>
+            </div>
+          </div>
+
+          <!-- Java -->
+          <div class="skill-card" data-category="languages">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">Java</span>
+                <span class="badge badge-blue">Language</span>
+              </div>
+              <p class="skill-desc">Object-oriented architecture, strong typing, multithreading basics, and enterprise server-side data workflows.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">OOP</span>
+              <span class="tech-tag">Java Core</span>
+            </div>
+          </div>
+
+          <!-- HTML5, CSS3 & JavaScript -->
+          <div class="skill-card" data-category="backend">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">Modern Frontend &amp; PWA</span>
+                <span class="badge badge-emerald">Frontend</span>
+              </div>
+              <p class="skill-desc">Semantic HTML5, CSS responsive layouts, vanilla JavaScript DOM manipulation, Progressive Web Apps, and mobile compatibility.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">HTML5/CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">PWA</span>
+            </div>
+          </div>
+
+          <!-- Git & Cloud Platforms -->
+          <div class="skill-card" data-category="tools">
+            <div>
+              <div class="skill-card-top">
+                <span class="skill-name">Git, GitHub &amp; Deployment</span>
+                <span class="badge badge-blue">Workflow</span>
+              </div>
+              <p class="skill-desc">Version control, branching workflows, continuous deployment with Netlify and Render, and agile software development.</p>
+            </div>
+            <div class="skill-tags">
+              <span class="tech-tag">Git</span>
+              <span class="tech-tag">GitHub</span>
+              <span class="tech-tag">Netlify</span>
+              <span class="tech-tag">Render</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Experience & Internship Timeline
+         ======================================================================== -->
+    <section id="experience" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Career History</span>
+          <h2 class="section-title">Internship Experience</h2>
+          <p class="section-subtitle">
+            Hands-on software engineering roles at IT Hub Software Solutions under senior technical mentorship.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Internship 1: Python Programmer -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Python Programmer Intern</h3>
+                <span class="timeline-date">June 2026 (Certified)</span>
+              </div>
+              <div class="timeline-company">
+                <span>IT HUB SOFTWARE SOLUTION, Bhavnagar</span>
+              </div>
+              <div class="timeline-mentor">
+                Mentored by Mr. Piyush Danani
+              </div>
+              <ul class="timeline-bullets">
+                <li class="timeline-bullet">Engineered backend Python scripts and modular programming utilities conforming to clean code guidelines.</li>
+                <li class="timeline-bullet">Implemented automated data processing routines, file operations, and algorithmic logic for computational scalability.</li>
+                <li class="timeline-bullet">Strengthened object-oriented design patterns, error handling, and robust data structures.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Internship 2: PHP Developer -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-role">PHP Developer Intern</h3>
+                <span class="timeline-date">01 Dec 2025 – 28 Feb 2026</span>
+              </div>
+              <div class="timeline-company">
+                <span>IT HUB SOFTWARE SOLUTION, Bhavnagar</span>
+              </div>
+              <div class="timeline-mentor">
+                Mentored by Mr. Piyush Danani
+              </div>
+              <ul class="timeline-bullets">
+                <li class="timeline-bullet">Developed database-driven backend services and relational data models leveraging PHP and MySQL architectures.</li>
+                <li class="timeline-bullet">Engineered transaction modules, user authentication, session security protocols, and strict data validation rules.</li>
+                <li class="timeline-bullet">Designed normalized MySQL schemas and optimized relational queries for high-performance CRUD data transactions.</li>
+                <li class="timeline-bullet">Integrated RESTful API endpoints and external web services to process and format structured data payloads.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Internship 3: Web Designer -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Web Designer Intern</h3>
+                <span class="timeline-date">May 2025 – June 2025</span>
+              </div>
+              <div class="timeline-company">
+                <span>IT HUB SOFTWARE SOLUTION, Bhavnagar</span>
+              </div>
+              <div class="timeline-mentor">
+                Mentored by Mr. Piyush Danani
+              </div>
+              <ul class="timeline-bullets">
+                <li class="timeline-bullet">Implemented responsive user interfaces and interactive dashboards utilizing modern HTML5, CSS3, JavaScript, and Bootstrap.</li>
+                <li class="timeline-bullet">Engineered client-side interactivity, form validation, and dynamic UI behavior for seamless user data input.</li>
+                <li class="timeline-bullet">Collaborated in daily agile engineering workflows, diagnosing UI bugs and ensuring cross-device compatibility.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Hackathon & Achievements Spotlight
+         ======================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Competitions</span>
+          <h2 class="section-title">Hackathon Participation</h2>
+          <p class="section-subtitle">
+            Prototyping software solutions under high-pressure competitive environments.
+          </p>
+        </div>
+
+        <div style="max-width: 860px; margin: 0 auto; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 2.25rem; box-shadow: var(--shadow-sm);">
+          <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem; margin-bottom: 1rem;">
+            <div>
+              <span class="badge badge-purple" style="margin-bottom: 0.5rem;">Google Student Ambassador &amp; GMIU</span>
+              <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary);">TechNova Hackathon 2025</h3>
+              <div style="font-size: 0.9rem; color: var(--accent-blue); font-weight: 600;">Department of BCA • Gyanmanjari Innovative University, Bhavnagar</div>
+            </div>
+            <div class="timeline-date">22nd November 2025</div>
+          </div>
+
+          <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.25rem;">
+            Collaborated in an intensive, competitive environment to brainstorm, design, and prototype a software solution for real-world problems. Delivered technical pitch and live demonstration evaluated by industry leaders.
+          </p>
+
+          <div style="padding-top: 1rem; border-top: 1px solid var(--border-color); display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem; font-size: 0.825rem; color: var(--text-muted);">
+            <strong style="color:var(--text-primary);">Event Sponsors &amp; Partners:</strong>
+            <span class="badge">Meetanshi</span>
+            <span class="badge">Nitsan</span>
+            <span class="badge">The Learning Hub</span>
+            <span class="badge">FuelLens</span>
+            <span class="badge">DeRuGo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Verified Credentials & Certificates (With Lightbox Viewer)
+         ======================================================================== -->
+    <section id="certificates" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Proof of Work</span>
+          <h2 class="section-title">Verified Certificates &amp; Credentials</h2>
+          <p class="section-subtitle">
+            Authentic industry certificates. Click any card to inspect the full high-resolution issued credential.
+          </p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Certificate 1: Python Programmer -->
+          <div class="cert-card" 
+               data-cert-img="assets/certificates/cert_python_programmer.webp" 
+               data-cert-title="Certificate of Internship: Python Programmer"
+               data-cert-download="assets/certificates/cert_python_programmer.jpg">
+            <div class="cert-image-wrap">
+              <img src="assets/certificates/cert_python_programmer.webp" alt="Python Programmer Certificate" class="cert-image" loading="lazy">
+              <div class="cert-overlay">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+                <span>Inspect Certificate</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <div>
+                <h3 class="cert-title">Python Programmer</h3>
+                <div class="cert-issuer">IT Hub Software Solutions</div>
+              </div>
+              <div class="cert-meta">
+                <span>Mentor: Mr. Piyush Danani</span>
+                <span>Issue: 21/06/2026</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 2: PHP Developer -->
+          <div class="cert-card" 
+               data-cert-img="assets/certificates/cert_php_developer.webp" 
+               data-cert-title="Certificate of Internship: PHP Developer"
+               data-cert-download="assets/certificates/cert_php_developer.jpg">
+            <div class="cert-image-wrap">
+              <img src="assets/certificates/cert_php_developer.webp" alt="PHP Developer Certificate" class="cert-image" loading="lazy">
+              <div class="cert-overlay">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+                <span>Inspect Certificate</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <div>
+                <h3 class="cert-title">PHP Developer</h3>
+                <div class="cert-issuer">IT Hub Software Solutions</div>
+              </div>
+              <div class="cert-meta">
+                <span>Mentor: Mr. Piyush Danani</span>
+                <span>Issue: 28/02/2026</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 3: Web Designer -->
+          <div class="cert-card" 
+               data-cert-img="assets/certificates/cert_web_designer.webp" 
+               data-cert-title="Certificate of Internship: Web Designer"
+               data-cert-download="assets/certificates/cert_web_designer.jpg">
+            <div class="cert-image-wrap">
+              <img src="assets/certificates/cert_web_designer.webp" alt="Web Designer Certificate" class="cert-image" loading="lazy">
+              <div class="cert-overlay">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+                <span>Inspect Certificate</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <div>
+                <h3 class="cert-title">Web Designer</h3>
+                <div class="cert-issuer">IT Hub Software Solutions</div>
+              </div>
+              <div class="cert-meta">
+                <span>Mentor: Mr. Piyush Danani</span>
+                <span>Issue: 19/06/2025</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 4: TechNova Hackathon -->
+          <div class="cert-card" 
+               data-cert-img="assets/certificates/cert_technova_hackathon.webp" 
+               data-cert-title="Certificate of Participation: TechNova Hackathon 2025"
+               data-cert-download="assets/certificates/cert_technova_hackathon.jpg">
+            <div class="cert-image-wrap">
+              <img src="assets/certificates/cert_technova_hackathon.webp" alt="TechNova Hackathon Certificate" class="cert-image" loading="lazy">
+              <div class="cert-overlay">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+                <span>Inspect Certificate</span>
+              </div>
+            </div>
+            <div class="cert-details">
+              <div>
+                <h3 class="cert-title">TechNova Hackathon 2025</h3>
+                <div class="cert-issuer">Google Student Ambassador &amp; GMIU</div>
+              </div>
+              <div class="cert-meta">
+                <span>Category: Participation</span>
+                <span>Issue: 22/11/2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Education & Personal Profile
+         ======================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="edu-grid">
+          <!-- Education Card -->
+          <div class="edu-card">
+            <span class="section-tag">Academic Background</span>
+            <h3 class="edu-degree">Bachelor of Computer Application (BCA)</h3>
+            <div class="edu-school">Gyanmanjari Innovative University (GMIU), Bhavnagar</div>
+            <div class="edu-time">May 2024 – Present (Undergraduate)</div>
+            <p style="font-size: 0.925rem; color: var(--text-secondary); line-height: 1.6;">
+              Concentration on object-oriented programming, relational database management systems, data structures and algorithms, system analysis, and advanced web technologies. Actively participating in university coding forums and Google Student Ambassador initiatives.
+            </p>
+          </div>
+
+          <!-- Linguistic Profile -->
+          <div class="edu-card">
+            <span class="section-tag">Languages &amp; Communication</span>
+            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-primary);">
+              Multilingual Capabilities
+            </h3>
+            <div style="display: flex; flex-direction: column; gap: 0.85rem;">
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.875rem; margin-bottom:0.25rem;">
+                  <span style="font-weight:600;">Gujarati (ગુજરાતી)</span>
+                  <span style="color:var(--accent-emerald);">Native</span>
+                </div>
+                <div style="height:6px; background:var(--bg-tertiary); border-radius:var(--radius-full); overflow:hidden;">
+                  <div style="width:100%; height:100%; background:var(--accent-emerald);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.875rem; margin-bottom:0.25rem;">
+                  <span style="font-weight:600;">English</span>
+                  <span style="color:var(--accent-blue);">Professional Working</span>
+                </div>
+                <div style="height:6px; background:var(--bg-tertiary); border-radius:var(--radius-full); overflow:hidden;">
+                  <div style="width:90%; height:100%; background:var(--accent-blue);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.875rem; margin-bottom:0.25rem;">
+                  <span style="font-weight:600;">Hindi (हिन्दी)</span>
+                  <span style="color:var(--accent-blue);">Fluent</span>
+                </div>
+                <div style="height:6px; background:var(--bg-tertiary); border-radius:var(--radius-full); overflow:hidden;">
+                  <div style="width:95%; height:100%; background:var(--accent-blue);"></div>
+                </div>
+              </div>
+
+              <div>
+                <div style="display:flex; justify-content:space-between; font-size:0.875rem; margin-bottom:0.25rem;">
+                  <span style="font-weight:600;">Sanskrit (संस्कृतम्)</span>
+                  <span style="color:var(--text-muted);">Academic / Classical</span>
+                </div>
+                <div style="height:6px; background:var(--bg-tertiary); border-radius:var(--radius-full); overflow:hidden;">
+                  <div style="width:75%; height:100%; background:var(--text-muted);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Get in Touch / Contact Section
+         ======================================================================== -->
+    <section id="contact" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Start a Conversation</h2>
+          <p class="section-subtitle">
+            Whether you have an AI/ML development opening, an interesting project collaboration, or want to discuss computer vision pipelines — my inbox and phone are always open.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Direct Contact Information -->
+          <div class="contact-info-list">
+            <!-- Email -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-item-content">
+                <span class="contact-item-label">Direct Email</span>
+                <a href="mailto:jayparmar4450@gmail.com" class="contact-item-value">jayparmar4450@gmail.com</a>
+              </div>
+              <button class="contact-copy-btn copy-trigger" data-copy="jayparmar4450@gmail.com" title="Copy Email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Phone & WhatsApp -->
+            <div class="contact-item">
+              <div class="contact-item-icon" style="background: rgba(37,211,102,0.12); color: #25D366;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-item-content">
+                <span class="contact-item-label">Phone &amp; WhatsApp</span>
+                <a href="tel:+919714611331" class="contact-item-value">+91 97146 11331</a>
+              </div>
+              <a href="https://wa.me/919714611331" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary" style="color:#25D366;">
+                WhatsApp
+              </a>
+            </div>
+
+            <!-- Location with Live Clock -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-item-content">
+                <span class="contact-item-label">Location &amp; Local Time</span>
+                <div class="contact-item-value">149/2A, Bhayani Ni Vadi, Street No. 2, Bhavnagar, Gujarat, India</div>
+                <div style="font-size: 0.8rem; color: var(--accent-blue); font-family: var(--font-mono); margin-top: 0.25rem;">
+                  🕒 Local Time: <span id="live-ist-clock">Loading IST...</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- GitHub Profile -->
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </div>
+              <div class="contact-item-content">
+                <span class="contact-item-label">GitHub Repositories</span>
+                <a href="https://github.com/jayparmarsrisri111" target="_blank" rel="noopener noreferrer" class="contact-item-value">
+                  github.com/jayparmarsrisri111
+                </a>
+              </div>
+              <a href="https://github.com/jayparmarsrisri111" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary">
+                Visit
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Quick Message Form -->
+          <div>
+            <form id="portfolio-contact-form" class="contact-form">
+              <h3 style="font-size: 1.25rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">
+                Send Direct Message
+              </h3>
+              <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+                Fills and launches your email client instantly with your formatted message.
+              </p>
+
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name *</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email Address *</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="e.g. john@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" class="form-input" placeholder="e.g. AI / ML Developer Opportunity" value="AI/ML Opportunity / Collaboration">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message *</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Hello Jay, I came across your portfolio and live projects..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div id="form-feedback" style="margin-top: 0.5rem;"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-copy">
+        <div style="font-weight: 700; color: var(--text-primary);">Jay Parmar • AI/ML Developer</div>
+        <div>Engineered with semantic HTML5, modern CSS, and vanilla JS. Zero template bloat.</div>
+        <div style="font-size: 0.775rem; color: var(--text-muted); margin-top: 0.25rem;">
+          © 2026 Jay Parmar. Bhavnagar, Gujarat, India. All rights reserved.
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero" class="back-to-top">
+          <span>Back to Top</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Certificate Lightbox Modal
+       ======================================================================== -->
+  <div id="cert-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-cert-title">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modal-cert-title" class="modal-title">Certificate Inspection</h3>
+        <button id="modal-close-btn" class="modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-body">
+        <img id="modal-cert-image" src="" alt="Certificate Preview" class="modal-image">
+      </div>
+      <div class="modal-footer">
+        <span style="font-size: 0.8rem; color: var(--text-muted);">Verified Credential Document</span>
+        <a id="modal-cert-download" href="" download class="btn btn-sm btn-primary">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download High-Res</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast" role="status">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </svg>
+    <span id="toast-msg">Copied to clipboard!</span>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="app.js"></script>
+</body>
+</html>
