@@ -12,11 +12,12 @@ desktop.ini
 # Python artifacts
 __pycache__/
 *.py[cod]
-*$py.class
+*.class
 *.log
 
 # Temporary or local build files
 .temp/
 .cache/
+node_modules/
 
 .vercel
