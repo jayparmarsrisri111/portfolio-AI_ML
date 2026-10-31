@@ -1651,6 +1651,14 @@ code, pre {
   color: var(--accent-blue);
 }
 
+.footer-link {
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+.footer-link:hover {
+  color: var(--accent-blue) !important;
+  transform: translateY(-2px);
+}
+
 /* ==========================================================================
    Responsive Breakpoints - Fully Optimized for All Devices
    ========================================================================== */

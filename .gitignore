@@ -18,3 +18,5 @@ __pycache__/
 # Temporary or local build files
 .temp/
 .cache/
+
+.vercel

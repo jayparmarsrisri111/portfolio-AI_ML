@@ -22,9 +22,11 @@ A handcrafted, high-performance, and responsive portfolio website designed for *
   - Web Designer Internship Certificate (IT Hub Software Solutions)
   - TechNova Hackathon 2025 Certificate (Google Student Ambassador & GMIU Coding Club)
 - **Direct Connect Channels:**
+  - LinkedIn Profile ([linkedin.com/in/jay-parmar-149357375](https://www.linkedin.com/in/jay-parmar-149357375))
+  - GitHub Profile ([github.com/jayparmarsrisri111](https://github.com/jayparmarsrisri111))
   - One-click WhatsApp direct chat (`+91 9714611331`)
   - Click-to-copy email with toast notification (`jayparmar4450@gmail.com`)
-  - Direct PDF Resume download (`assets/Jay_Parmar_Resume.pdf`)
+  - Direct PDF Resume download with clickable hyperlinks (`assets/Jay_Parmar_Resume.pdf`)
   - Live Indian Standard Time (IST) clock for Bhavnagar, Gujarat.
 - **Theme Support:** Dark & Light mode toggle with automatic persistence in `localStorage`.
 - **100% Mobile Responsive:** Optimized for smartphones (iPhone / Android), tablets, and 4K displays.

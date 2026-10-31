@@ -173,7 +173,8 @@ function initInteractiveTerminal() {
 <div class="terminal-line terminal-out">
   • <strong>Email:</strong> jayparmar4450@gmail.com<br>
   • <strong>Phone / WhatsApp:</strong> +91 9714611331<br>
-  • <strong>GitHub:</strong> github.com/jayparmarsrisri111<br>
+  • <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jay-parmar-149357375" target="_blank" rel="noopener noreferrer" style="color:var(--accent-blue); text-decoration:underline;">linkedin.com/in/jay-parmar-149357375</a><br>
+  • <strong>GitHub:</strong> <a href="https://github.com/jayparmarsrisri111" target="_blank" rel="noopener noreferrer" style="color:var(--accent-blue); text-decoration:underline;">github.com/jayparmarsrisri111</a><br>
   • <strong>Status:</strong> <span style="color:#10b981">Available for Software Engineer / AI Developer opportunities.</span>
 </div>`,
 
