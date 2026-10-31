@@ -742,7 +742,7 @@ code, pre {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1.25rem;
+  margin: 0 auto 1.25rem auto;
 }
 
 .icon-blue { background: rgba(59, 130, 246, 0.12); color: var(--accent-blue); }
